@@ -1,6 +1,7 @@
 # dataset settings
 dataset_type = 'ChaseDB1Dataset'
-data_root = 'data/CHASE_DB1'
+# data_root = 'data/CHASE_DB1'
+data_root = 'I:\experiment\AMMSeg\data\CHASE_DB1'
 img_scale = (960, 999)
 crop_size = (128, 128)
 train_pipeline = [
