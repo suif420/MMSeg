@@ -1,0 +1,13 @@
+README.md
+setup.py
+mmseg/__init__.py
+mmseg/version.py
+mmseg/dataset/__init__.py
+mmseg/dataset/basesegdataset.py
+mmseg/dataset/my_dataset.py
+mmsegmentation.egg-info/PKG-INFO
+mmsegmentation.egg-info/SOURCES.txt
+mmsegmentation.egg-info/dependency_links.txt
+mmsegmentation.egg-info/not-zip-safe
+mmsegmentation.egg-info/requires.txt
+mmsegmentation.egg-info/top_level.txt
