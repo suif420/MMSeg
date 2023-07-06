@@ -13,8 +13,10 @@ from mmseg.registry import RUNNERS
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Train a segmentor')
-    parser.add_argument('config', help='train config file path')
-    parser.add_argument('--work-dir', help='the dir to save logs and models')
+    parser.add_argument('--config', help='train config file path',
+                        default='I:/experiment/AMMSeg/configs/unet/unet-s5-d16_deeplabv3_4xb4-ce-1.0-dice-3.0-40k_chase-db1-128x128.py')
+    parser.add_argument('--work-dir', help='the dir to save logs and models',
+                        default='I:/experiment/AMMSeg\logs/1-test')
     parser.add_argument(
         '--resume',
         action='store_true',
